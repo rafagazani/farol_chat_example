@@ -1,0 +1,18 @@
+execute
+docker compose stop traefik - appwrite fica inacessível
+dentro da pasta appwrite
+crie o arquivo backup.sh
+dê permissão de executar no arquivo:
+chmod +x backup.sh
+execute:
+./backup.sh
+
+se tudo ocorrer bem, execute dentro da pasta backup
+terá o arquivo dump.sql
+inicie o traefik:
+docker compose start traefik
+fim.
+
+--RESTAURAR--
+chmod +x restore.sh
+./restore.sh

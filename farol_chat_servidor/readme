@@ -1,0 +1,6 @@
+adicionar o pacote do appwrite na versão 0.8.0:
+
+criar a função alterar_chat_participantes
+adicionar o arquivo requirements.txt
+criar o appwrite.json
+appwrite==0.8.0
